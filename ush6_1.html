@@ -7,10 +7,11 @@
 </head>
 <body>
   <button onClick="
-    let emri = prompt('Shkruaj emrin tend:');
-    let mosha = prompt('Shkruaj moshen tuaj:');
+    let emri;
+    let mosha;
     if(emri == null || emri == '' && mosha == null || mosha == ''){
-
+      emri = prompt('Shkruaj emrin tend:');
+      mosha = prompt('Shkruaj moshen tuaj:');
     } else {
       alert('Emri: ' + emri + '\nMosha: ' + mosha);
     }
