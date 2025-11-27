@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="sq">
+<head><meta charset="utf-8"><title>Detyra 2</title></head>
+<body>
+  <button onclick="
+    const a = prompt('Shkruaj numrin e parë:');
+    const b = prompt('Shkruaj numrin e dytë:');
+    if (a === null || b === null) {
+      
+    } else {
+      const n1 = Number(a);
+      const n2 = Number(b);
+      if (isNaN(n1) || isNaN(n2)) {
+        alert('Ju lutem shkruani dy vlera numerike të vlefshme.');
+      } else {
+        alert('Shuma e dy numrave është: ' + (n1 + n2));
+      }
+    }
+  ">Llogarit shumën</button>
+</body>
+</html>
